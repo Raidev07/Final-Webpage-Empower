@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSHS PORTAL</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-link" id="navLink">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="strand.html">STRANDS</a></li>
+          <li><a href="journal.html">JOURNAL</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+
+<!------- about us content ------>
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+      <h1>History</h1>
+      <p>Buting Senior High School is an independent public senior high school located in Buting, Pasig City recognized by the Department of Education (DepEd). The school provides all strands of the Academic Track as well as Technical Vocational Livelihood (TVL) track for its senior high school program. Buting Senior High school is a newly standalone building which covers the last two programs of k to 12, the grade 11 and grade 12. The school opened on june 20, 2016 with 1197 students and 35 pioneering features. Buting senior high school has 2 buildings with complete facilities, it has science laboratory, computer rooms, culinary rooms, etc. Buting Senior High School maintains it’s strong linkage of city goverment of Pasig with a support development of programs for the students. </p>
+      <a href="strand.html"class="hero-btn red-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+      <img src="images/official.png" alt="">
+    </div>
+  </div>
+</section>
+<!------- Footer ------>
+
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Buting Senior High School is an independent public senior high school located in Buting, Pasig City recognized by the Department of Education (DepEd).<br>The school provides all strands of the Academic Track as well as Technical Vocational Livelihood (TVL) track for its senior high school program.</p>
+  <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-phone"></i>
+    <i class="fa fa-envelope"></i>
+  </div>
+  <p>Made with <i class="fa fa-heart-o"></i> by ICT-C Student</p>
+</section>
+<!--------JavaScript for Toggle Menu------->
+<script>
+
+  var navlink = document.getElementById("navLink");
+  function showMenu(){
+    navLink.style.right = "0";
+  }
+  function hideMenu(){
+    navLink.style.right = "-200px";
+  }
+
+</script>
+
+</body>
+</html>
